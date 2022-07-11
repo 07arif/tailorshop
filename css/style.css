@@ -1,0 +1,261 @@
+/* .top-banner :start  */
+.top-banner {
+    background-color: rgb(247, 247, 247);
+}
+
+.top-banner-items {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    height: 500px;
+    gap: 10px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.top-banner-left-area {
+    width: 50%;
+
+}
+
+.top-banner-left-area button {
+    background-color: black;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-weight: 700;
+}
+
+.top-banner-left-area button:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    transition: 0.3s;
+}
+
+.top-banner-right-area {
+    width: 50%;
+}
+
+.top-banner-right-area img {
+    width: 100%;
+}
+
+/* top baner end  */
+
+/* OUR FEATURES area start  */
+.service-heding {
+    background-color: rgb(62, 227, 134);
+    padding: 45px 55px;
+}
+
+.feature-title {
+    background-color: white;
+    color: black;
+    text-align: center;
+    line-height: 15px;
+}
+
+.feature-banner {
+    background-color: rgb(255, 255, 255);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: white;
+}
+
+.feature-items {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    gap: 5px;
+}
+
+.item1 {
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.item1 img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.item1:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* OUR FEATURES area end  */
+
+/* about section start  */
+.about-heading {
+    background-color: rgb(62, 227, 134);
+    padding: 45px 55px;
+}
+
+.about-us {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    gap: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.about-left {
+    width: 50%;
+}
+
+.about-left img {
+    width: 100%;
+}
+
+.about-right {
+    width: 50%;
+}
+
+.about-right button {
+    background-color: black;
+    padding: 15px 30px;
+    border-radius: 25px;
+    color: white;
+    font-weight: 700;
+    border: none;
+}
+
+.about-right button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+/* about section end  */
+
+/* contact us  start */
+.Contact-heding {
+    background-color: rgb(62, 227, 134);
+    padding: 45px 55px;
+}
+
+.contact-section {
+    width: 90%;
+    display: flex;
+    padding-bottom: 100px;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+.contact-section iframe {
+    width: 100%;
+    margin-left: 10%;
+}
+
+.location {
+    width: 50%;
+}
+
+.group-form {
+    width: 50%;
+    padding: 20px;
+
+}
+
+.group-form input {
+    padding: 12px;
+    margin: 5px;
+    border: 1px solid rgb(199, 189, 189);
+    border-radius: 3px;
+}
+
+.group-form textarea {
+    border: 1px solid rgb(199, 189, 189);
+    color: rgb(148, 148, 148);
+}
+
+
+
+.group-form button {
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    font-weight: 700
+}
+
+.group-form button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    font-weight: 700;
+}
+
+/* contact us end  */
+footer {
+    background-color: rgb(241, 241, 241);
+}
+
+.footer-items {
+    display: flex;
+    width: 100%;
+    height: 250px;
+    padding-bottom: 80px;
+
+}
+
+.footer-item-one {
+    width: 50%;
+    padding: 5%;
+}
+
+.footer-item-one img {
+    width: 50%;
+}
+
+.footer-item-two {
+    width: 50%;
+    padding: 5%;
+}
+
+.footer-item-two input {
+    padding: 10px;
+    background-color: gainsboro;
+    border: none;
+    border-radius: 2px;
+}
+
+.footer-item-two button {
+    padding: 10px;
+    border: none;
+    margin: -5px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
+
+.footer-item-two button:hover {
+    background-color: white;
+    color: black;
+    font-weight: 700;
+}
+
+.footer-item-two a {
+    display: block;
+    padding: 3px;
+    color: black;
+    text-decoration: none;
+}
+
+.copyright {
+    text-align: center;
+}
